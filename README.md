@@ -25,7 +25,7 @@ solid black;
         <!-- Game canvas will be rendered here -->
     </div>
     <button onclick="Telegram.WebApp.showAlert('Hello World!')">Show Alert</button>
-    <script src="https://BlitzCoin/js/telegram-web-app.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         Telegram.WebApp.ready();
     </script>
