@@ -31,4 +31,3 @@ solid black;
     </script>
 </body>
 </html>
-git config
