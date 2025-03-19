@@ -16,7 +16,8 @@
             height: 400px;
             border: 1px solid black;
             margin: 40px auto;
-            background-image: url('hamster-background.png');
+            background-image: url('A310F820-B69F-4E75-80FE-11ECE704...')
+            ;
             background-size: cover;
         }
         .hamster-button {
