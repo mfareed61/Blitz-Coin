@@ -1,6 +1,6 @@
 # Blitz-Coin
 <!DOCTYPE html>
-<html lang="English">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,10 +37,16 @@
     <div id="game-container">
         <!-- Game canvas will be rendered here -->
     </div>
-    <button class="hamster-button" onclick="Telegram.WebApp.showAlert('Blitz Coin is coming soon!')">Play Now</button>
+    <button class="hamster-button" id="playButton">Play Now</button>
+
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         Telegram.WebApp.ready();
+
+        // Add event listener for the Play Now button
+        document.getElementById('playButton').addEventListener('click', function() {
+            Telegram.WebApp.showAlert('Blitz Coin is coming soon!');
+        });
     </script>
 </body>
 </html>
